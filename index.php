@@ -26,6 +26,11 @@ session_start();
 					unset ($_SESSION['msg']);
 				}
 				?>	
+				<?php
+				echo "Olá parça";
+
+				echo "0800555";
+				?>
 				<form action="login.php"  method="POST">
 				  <div class="form-group">
 				    <input name="email" type="email" class="form-control" placeholder="Digite o email" required>
