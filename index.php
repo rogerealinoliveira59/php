@@ -26,6 +26,9 @@ session_start();
 					unset ($_SESSION['msg']);
 				}
 				?>	
+				echo "Olá parceiro";
+				
+				echo "0800224";
 				<form action="login.php"  method="POST">
 				  <div class="form-group">
 				    <input name="email" type="email" class="form-control" placeholder="Digite o email" required>
