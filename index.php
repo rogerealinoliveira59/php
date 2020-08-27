@@ -27,9 +27,11 @@ session_start();
 				}
 				?>	
 				<?php
+
 				echo "Olá parça";
 
 				echo "0800555";
+	
 				?>
 				<form action="login.php"  method="POST">
 				  <div class="form-group">
