@@ -28,7 +28,7 @@ session_start();
 				?>	
 				<form action="login.php"  method="POST">
 				  <div class="form-group">
-				    <input name="usuario" type="text" class="form-control" placeholder="Digite o usuario" required>
+				    <input name="email" type="email" class="form-control" placeholder="Digite o email" required>
 				  </div>
 				  <div class="form-group">
 				  	<input name="senha" type="password" class="form-control" id="exampleInputPassword1" placeholder="Digitar a  senha" required>
